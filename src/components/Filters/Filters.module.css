@@ -1,0 +1,23 @@
+.filters {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.filters label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.filters button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.filters button:hover {
+  background-color: #0056b3;
+}

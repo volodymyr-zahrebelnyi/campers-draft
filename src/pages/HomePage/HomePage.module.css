@@ -1,0 +1,42 @@
+.homePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../../assets/banner.png") no-repeat center center/cover;
+  /* background: url("/assets/banner.png") no-repeat center center/cover; */
+  background-size: cover;
+  background-position: center;
+}
+
+.homeBanner {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.homeBanner h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.homeBanner p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.homeBanner button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.homeBanner button:hover {
+  background-color: #0056b3;
+}

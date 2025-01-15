@@ -1,0 +1,27 @@
+.navigation {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  margin: 0 15px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}

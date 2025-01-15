@@ -1,0 +1,24 @@
+.bookingForm {
+  margin-top: 20px;
+}
+
+.bookingForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookingForm label {
+  margin-bottom: 10px;
+}
+
+.bookingForm button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.bookingForm button:hover {
+  background-color: #0056b3;
+}

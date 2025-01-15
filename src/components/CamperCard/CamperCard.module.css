@@ -1,0 +1,21 @@
+.camperCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+}
+
+.camperCardImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.showMoreButton {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.showMoreButton:hover {
+  text-decoration: underline;
+}
